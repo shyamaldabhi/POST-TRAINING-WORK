@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T20:46:37 EDT" name="Suite" finished-at="2022-09-26T20:47:15 EDT" duration-ms="38197">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T20:46:37 EDT" name="Test" finished-at="2022-09-26T20:47:15 EDT" duration-ms="38197">
+      <class name="com.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:37 EDT" name="setUp" finished-at="2022-09-26T20:46:41 EDT" duration-ms="4014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPageTitleTest()[pri:1, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:41 EDT" name="LoginPageTitleTest" finished-at="2022-09-26T20:46:41 EDT" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:41 EDT" name="tearDown" finished-at="2022-09-26T20:46:42 EDT" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:42 EDT" name="setUp" finished-at="2022-09-26T20:46:45 EDT" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LinkedInPageLogo()[pri:2, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:45 EDT" name="LinkedInPageLogo" finished-at="2022-09-26T20:46:45 EDT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedInPageLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:45 EDT" name="tearDown" finished-at="2022-09-26T20:46:46 EDT" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:46 EDT" name="setUp" finished-at="2022-09-26T20:46:48 EDT" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestSpecChar()[pri:3, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:46:48 EDT" name="loginTestSpecChar" finished-at="2022-09-26T20:47:00 EDT" duration-ms="11134" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#error\-for\-username"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SHYAMAL', ip: '10.0.0.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\sdabh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bfb012d5f0cbaea9c9976ab0166f482
+*** Element info: {Using=id, value=error-for-username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-for\-username"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SHYAMAL', ip: '10.0.0.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\sdabh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bfb012d5f0cbaea9c9976ab0166f482
+*** Element info: {Using=id, value=error-for-username}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.getText(Unknown Source)
+at com.qa.pages.LoginPage.readEmailErr(LoginPage.java:44)
+at com.qa.testcases.LoginTest.loginTestSpecChar(LoginTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSpecChar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:00 EDT" name="tearDown" finished-at="2022-09-26T20:47:00 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:00 EDT" name="setUp" finished-at="2022-09-26T20:47:03 EDT" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestNoSpecChar()[pri:4, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:03 EDT" name="loginTestNoSpecChar" finished-at="2022-09-26T20:47:04 EDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestNoSpecChar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:04 EDT" name="tearDown" finished-at="2022-09-26T20:47:04 EDT" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:04 EDT" name="setUp" finished-at="2022-09-26T20:47:07 EDT" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestEmptyEmail()[pri:5, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:07 EDT" name="loginTestEmptyEmail" finished-at="2022-09-26T20:47:07 EDT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestEmptyEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:07 EDT" name="tearDown" finished-at="2022-09-26T20:47:08 EDT" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:08 EDT" name="setUp" finished-at="2022-09-26T20:47:11 EDT" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="NavigateToHomePage()[pri:6, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:11 EDT" name="NavigateToHomePage" finished-at="2022-09-26T20:47:14 EDT" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTest@625732]" started-at="2022-09-26T20:47:14 EDT" name="tearDown" finished-at="2022-09-26T20:47:15 EDT" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
